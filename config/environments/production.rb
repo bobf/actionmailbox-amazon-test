@@ -16,6 +16,7 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
   config.active_record.dump_schema_after_migration = false
+  config.action_mailbox.ingress = :amazon
   config.action_mailbox.amazon.subscribed_topics = %w(
     arn:aws:sns:eu-west-1:463503649052:ses-inbound
   )
