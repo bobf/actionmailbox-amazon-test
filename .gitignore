@@ -30,3 +30,19 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+orchestration/.sidecar
+
+.env
+
+deploy.tar
+
+orchestration/.build/
+
+orchestration/.deploy/
+
+orchestration/Gemfile
+
+orchestration/Gemfile.lock
+
+orchestration/docker-compose.local.yml

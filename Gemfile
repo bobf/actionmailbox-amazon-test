@@ -4,6 +4,7 @@ ruby '2.6.5'
 gem 'aws-sdk-sns'
 gem 'rails', github: 'bobf/rails', branch: 'actionmailbox-amazon-ingress'
 gem 'sqlite3', '~> 1.4'
+gem 'orchestration'
 gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
