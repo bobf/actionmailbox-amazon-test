@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/bobf/rails.git
-  revision: ce929751694a856f21588953c77b0dd5661cd3f5
+  revision: 93c49bf172ae6d2488bb415c5e31268f178bdc39
   branch: actionmailbox-amazon-ingress
   specs:
     actioncable (6.1.0.alpha)
